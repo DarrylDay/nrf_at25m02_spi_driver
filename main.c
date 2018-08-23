@@ -15,9 +15,7 @@
 // LSM6DS3 Drivers
 #include "at25m02_driver.h"
 
-// Additional EEPROM Pins
-#define EEPROM_WRITE_PROTECT_PIN 10
-#define EEPROM_HOLD_PIN 7
+// Additional SPI Pins
 #define IMU_CHIP_SELECT 12
 
 // SPI Instance and Variables

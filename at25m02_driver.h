@@ -19,7 +19,12 @@ typedef enum
 
 #endif
 
-/***************** OPCODES EEPROM ******************/
+/***************** EEPROM PINS ******************/
+
+#define EEPROM_WRITE_PROTECT_PIN  10
+#define EEPROM_HOLD_PIN           7
+
+/***************** EEPROM OPCODES ******************/
 
 #define AT25M02_OPCODE_WRSR			0x01
 #define	AT25M02_OPCODE_WRITE		0x02
